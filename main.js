@@ -36,14 +36,14 @@ function gotresult(error, results){
         document.getElementById("result_hand_name").innerHTML=results[0].label;
         prediction1=results[0].label;
         speak();
-        if(results[0].label=="Sad"){
-            document.getElementById("update_hand").innerHTML="&#128546;";
+        if(results[0].label=="Thumbs down"){
+            document.getElementById("update_hand").innerHTML="&#128076;";
         }
-        if(results[0].label=="Angry"){
-          document.getElementById("update_hand").innerHTML="&#128545;";
+        if(results[0].label=="Peace"){
+          document.getElementById("update_hand").innerHTML="&#128077;";
       }
-      if(results[0].label=="Happy"){
-          document.getElementById("update_hand").innerHTML="&#128522;";
+      if(results[0].label=="Amazing"){
+          document.getElementById("update_hand").innerHTML="&#128078;";
       }
     }
  
