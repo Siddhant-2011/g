@@ -1,0 +1,39 @@
+body
+{
+  color: white;
+  background: #597bca;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_hand_name  
+{
+  color: black;
+}
+.hand_name
+{
+  font-size: 40px;
+}
+.hand
+{
+  font-size:48px;
+}
+.heading{
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
+label{
+  background-color: white;
+  color: #62b33a;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
